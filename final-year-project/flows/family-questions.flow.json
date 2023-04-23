@@ -1,0 +1,307 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "family_follow_up",
+  "description": "",
+  "nodes": [
+    {
+      "id": "ee2b2e33bb",
+      "name": "family_follow_up",
+      "onEnter": [
+        "say #!builtin_text-nqZywH"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_family_info"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "16c6fb0b04",
+      "name": "photo_taker",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_photo_taker"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dmIm6C"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "6c3d58d57b",
+      "name": "keep_in_touch",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_keep_in_touch"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-YNYQ8l"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "f25ae19dff",
+      "name": "family_story",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_family_story"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-2e03W_"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "591ce53784",
+      "name": "relatives_end",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choice-menu.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-oyKto7",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "1fd6a401ce",
+      "name": "save_family_info",
+      "next": [
+        {
+          "condition": "true",
+          "node": "family_story"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"familyInfo\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4c136a676c",
+      "name": "save_family_story",
+      "next": [
+        {
+          "condition": "true",
+          "node": "photo_taker"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"familyStory\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "33044fcc6c",
+      "name": "save_photo_taker",
+      "next": [
+        {
+          "condition": "true",
+          "node": "keep_in_touch"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"familyImageTaker\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "12a2b87255",
+      "name": "save_keep_in_touch",
+      "next": [
+        {
+          "condition": "true",
+          "node": "intent_relatives_relationship"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"familyKeepTouch\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "553a393054",
+      "name": "intent_relatives_relationship",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'good_relationship'",
+          "conditionType": "intent",
+          "node": "good_relationship"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'bad_relationship'",
+          "conditionType": "intent",
+          "node": "bad_relationship"
+        },
+        {
+          "condition": "true",
+          "node": "neutral_relationship"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-e7gIQL"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "b268e5135a",
+      "name": "good_relationship",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_positive"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-L5KVQY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "234191d5a0",
+      "name": "bad_relationship",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_negative"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-qyD62f"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8a91da3741",
+      "name": "neutral_relationship",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_neutral"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Vx2VfC"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "49b82edba7",
+      "name": "save_positive",
+      "next": [
+        {
+          "condition": "true",
+          "node": "family_dinner_video"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"goodRelationship\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "eecaf192e2",
+      "name": "save_negative",
+      "next": [
+        {
+          "condition": "true",
+          "node": "family_dinner_video"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"badRelationship\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "93b5026f2f",
+      "name": "save_neutral",
+      "next": [
+        {
+          "condition": "true",
+          "node": "family_dinner_video"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"neutralRelationship\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8c9a53e9d7",
+      "name": "family_dinner_video",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_dinner_video"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Tx1EMZ",
+        "say #!builtin_video-yLkDjA"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "b3dccb6fb7",
+      "name": "save_dinner_video",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_family_to_JSON"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"familyDinnerVideo\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "30859dfc63",
+      "name": "save_family_to_JSON",
+      "next": [
+        {
+          "condition": "true",
+          "node": "relatives_end"
+        }
+      ],
+      "onEnter": [
+        "whole-conversation-to-json {}",
+        "family-conversation-to-json {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

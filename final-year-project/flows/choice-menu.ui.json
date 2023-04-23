@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {
+      "id": "skill-663ad2",
+      "position": {
+        "x": 45,
+        "y": 85
+      }
+    },
+    {
+      "id": "17bde07ee8",
+      "position": {
+        "x": 460,
+        "y": 70
+      }
+    }
+  ],
+  "links": []
+}

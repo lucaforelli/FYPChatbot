@@ -1,0 +1,32 @@
+{
+  "name": "good_relationship",
+  "utterances": {
+    "en": [
+      "My sister is very kind to me and likes to give me many compliments",
+      "I have a very good relationship with my relatives",
+      "My relationship with them are not very great",
+      "My family is always very kind to me and my siblings",
+      "The relationship is normally good with my relatives",
+      "My parents love me very much and give me a lot of presents",
+      "they are always very nice to me when I give them a compliment",
+      "My parents are my best friends, I tell them everything",
+      "My sister and I have a really close bond, we're always there for each other",
+      "my cousins are very kind to me",
+      "I feel grateful for my cousins, they're like siblings to me",
+      "Everytime I meet my grandparent, I feel blessed by their presence",
+      "My aunt is my role model, I always go to her for advice",
+      "I'm really close with my in-laws, they treat me like family",
+      "My family is always there for me, no matter what",
+      "I feel lucky to have a supportive and loving family",
+      "I often get a positive feeling when I meet my aunt and uncle",
+      "My cousin is my favourite person to hang out with",
+      "They are the best people to have a splendid conversation",
+      "Nice feelings are usually felt when spending time with my brother",
+      "My grandfather has an amazing personality, he is always very enthusiastic and smiling"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

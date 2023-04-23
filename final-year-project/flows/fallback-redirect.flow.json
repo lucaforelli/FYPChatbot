@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1d7cb733a7",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-6tZQ3A",
+        "say #!builtin_text-0_PwtN",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choice-menu.flow.json"
+        }
+      ],
+      "type": "standard"
+    }
+  ]
+}

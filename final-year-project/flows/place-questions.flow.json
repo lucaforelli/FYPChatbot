@@ -1,0 +1,295 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "location",
+  "description": "",
+  "nodes": [
+    {
+      "id": "2ff430638a",
+      "name": "location",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_location"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-28c7z8"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "9bf2e12215",
+      "name": "save_location",
+      "next": [
+        {
+          "condition": "true",
+          "node": "audio"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"placeLocation\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f09b7d4030",
+      "name": "place_information",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_place_info"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-FtUEJg"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "78941bd8a2",
+      "name": "place_doing_at_that_time",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_doing_time"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-du_x_l"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "5282eba811",
+      "name": "save_place_info",
+      "next": [
+        {
+          "condition": "true",
+          "node": "place_doing_at_that_time"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"placeInfo\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5db618b255",
+      "name": "save_doing_time",
+      "next": [
+        {
+          "condition": "true",
+          "node": "intent_detection_weather"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"doingTime\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ef82937c30",
+      "name": "intent_detection_weather",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'cold_weather_intent'",
+          "conditionType": "intent",
+          "node": "cold_weather"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'warm_weather_intent'",
+          "conditionType": "intent",
+          "node": "warm_weather"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "save_weather"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-R_jCcA"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "957476f774",
+      "name": "cold_weather",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_cold_weather"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0u0cTO"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "22914fc4dc",
+      "name": "warm_weather",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_warm_weather"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wGrY7a"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "17ef6bd306",
+      "name": "save_cold_weather",
+      "next": [
+        {
+          "condition": "true",
+          "node": "weather_audio"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"coldWeather\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5135b49b88",
+      "name": "save_warm_weather",
+      "next": [
+        {
+          "condition": "true",
+          "node": "weather_audio"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"warmWeather\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5f0033d547",
+      "name": "save_weather",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "weather_audio"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"placeWeatherOther\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3bee81b5a2",
+      "name": "place_end",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choice-menu.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1XW3iv",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2e38dbac56",
+      "name": "audio",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_bus_audio"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-C_mOPv",
+        "say #!builtin_audio-9dpxep"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "feceb62245",
+      "name": "save_bus_audio",
+      "next": [
+        {
+          "condition": "true",
+          "node": "place_information"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"busAudio\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ff92763be5",
+      "name": "weather_audio",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_weather_audio"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-avcxf_",
+        "say #!builtin_audio-2aAHO9"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "220cf9a6d8",
+      "name": "save_weather_audio",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_place_to_JSON"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"weatherAudio\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "648d6a2240",
+      "name": "save_place_to_JSON",
+      "next": [
+        {
+          "condition": "true",
+          "node": "place_end"
+        }
+      ],
+      "onEnter": [
+        "whole-conversation-to-json {}",
+        "place-conversation-to-json {}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

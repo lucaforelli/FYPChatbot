@@ -1,0 +1,34 @@
+{
+  "name": "building-pictures",
+  "utterances": {
+    "en": [
+      "Pics from building",
+      "Photographs of building",
+      "Show pictures from Birmingham",
+      "Looking for pictures of the building",
+      "I want to see images taken from building",
+      "Please show me the bulding pictures",
+      "[2018-09-09](earthDate) building pictures",
+      "Photographs building [2 October 2018](earthDate)",
+      "Building [February 11th 2017](earthDate) images",
+      "Images from house from [2020-09-02](earthDate)",
+      "Give me [2019-08-02](earthDate) pics from the house",
+      "I wish to see pictures from the building on the date of [June 2nd of last year.](earthDate)",
+      "Can you provide me with images of the home area from [March 3rd 2014.](earthDate)",
+      "Pictures of the place I lived, like the villa taken on my birthday [5 Aug 2017](earthDate) please"
+    ]
+  },
+  "slots": [
+    {
+      "id": "IkBhGv5Fm0iCpMyR_lvk-",
+      "name": "earthDate",
+      "entities": [
+        "time"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "user_entity",
+  "name": "user_entity",
+  "type": "pattern",
+  "occurrences": [],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [
+    "1322",
+    "1902",
+    "2029",
+    "0190",
+    "1832",
+    "3948",
+    "0990",
+    "4343",
+    "2323",
+    "5656"
+  ],
+  "pattern": "[0-9]{4}",
+  "matchCase": false
+}

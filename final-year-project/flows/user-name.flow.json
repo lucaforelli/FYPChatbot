@@ -1,0 +1,84 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "description": "",
+  "nodes": [
+    {
+      "id": "592b9eacbf",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "session.slots.username_slot.value",
+          "conditionType": "raw",
+          "node": "validate_username"
+        },
+        {
+          "condition": "true",
+          "node": "extract_username"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e0b9321598",
+      "name": "validate_username",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choice-menu.flow.json"
+        }
+      ],
+      "onEnter": [
+        "validate-username {\"username\":\"{{session.slots.username_slot.value}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d7fc9eeecc",
+      "name": "username_not_found",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choice-menu.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-LLQgSc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-855bfc",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "extract_username",
+      "flow": "skills/Slot-855bfc.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "validate_username"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "username_not_found"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "validate_username"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

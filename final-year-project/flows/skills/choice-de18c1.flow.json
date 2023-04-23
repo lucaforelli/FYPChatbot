@@ -1,0 +1,107 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "t8k4couozr",
+    "contentId": "builtin_single-choice-xig_8W",
+    "invalidContentId": "",
+    "keywords": {
+      "Summary of whole conversation": [
+        "Summary of whole conversation"
+      ],
+      "Conversation summary about places": [
+        "Conversation summary about places"
+      ],
+      "Conversation summary about relatives": [
+        "Conversation summary about relatives"
+      ],
+      "View responses stored locally on JSON file": [
+        "View responses stored locally on JSON file"
+      ],
+      "Return to main menu": [
+        "Return to main menu"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false,
+      "variableName": ""
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"skill-choice-invalid-count-t8k4couozr\",\"value\": 0}",
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"skill-choice-valid-t8k4couozr\",\"value\": null}",
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"skill-choice-ret-t8k4couozr\",\"value\": null}",
+        "say #!builtin_single-choice-xig_8W {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "372769"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"t8k4couozr\",\"contentId\":\"builtin_single-choice-xig_8W\",\"invalidContentId\":\"\",\"keywords\":{\"Summary of whole conversation\":[\"Summary of whole conversation\"],\"Conversation summary about places\":[\"Conversation summary about places\"],\"Conversation summary about relatives\":[\"Conversation summary about relatives\"],\"View responses stored locally on JSON file\":[\"View responses stored locally on JSON file\"],\"Return to main menu\":[\"Return to main menu\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false,\"variableName\":\"\"}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-t8k4couozr'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "id": "always"
+            }
+          ]
+        }
+      ],
+      "onEnter": [],
+      "id": "086511"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"t8k4couozr\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-t8k4couozr']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "418665"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "734864"
+    }
+  ]
+}

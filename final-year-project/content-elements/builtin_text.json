@@ -1,0 +1,1376 @@
+[
+  {
+    "id": "builtin_text-FX_tDB",
+    "formData": {
+      "text$en": "Hello I am a chatbot",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-01-25T15:48:54.118Z",
+    "modifiedOn": "2023-02-02T00:21:08.875Z"
+  },
+  {
+    "id": "builtin_text-8t8Rw8",
+    "formData": {
+      "text$en": "What's your name?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:21:40.150Z",
+    "modifiedOn": "2023-02-02T00:21:40.150Z"
+  },
+  {
+    "id": "builtin_text-r_c0vW",
+    "formData": {
+      "text$en": "Nice to meet you {{user.Name}}!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:27:05.557Z",
+    "modifiedOn": "2023-02-02T00:27:05.557Z"
+  },
+  {
+    "id": "builtin_text-ZDXW9E",
+    "formData": {
+      "text$en": "What would you like to do?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:28:17.794Z",
+    "modifiedOn": "2023-02-02T00:28:17.794Z"
+  },
+  {
+    "id": "builtin_text-kkvGf9",
+    "formData": {
+      "text$en": "Hello, I am a chatbot",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:34:09.461Z",
+    "modifiedOn": "2023-02-02T00:48:49.898Z"
+  },
+  {
+    "id": "builtin_text-PR04fp",
+    "formData": {
+      "text$en": "What's your name?  *I'll be storing it in session.userName  so I can remember it and reuse it in the flow*",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:34:27.077Z",
+    "modifiedOn": "2023-02-02T00:49:01.283Z"
+  },
+  {
+    "id": "builtin_text-XR3BRh",
+    "formData": {
+      "text$en": ";",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        ""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:44:03.040Z",
+    "modifiedOn": "2023-02-02T00:44:03.040Z"
+  },
+  {
+    "id": "builtin_text-Spx_pL",
+    "formData": {
+      "text$en": "Nice to meet you {{session.userName}}!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:49:28.854Z",
+    "modifiedOn": "2023-02-02T00:50:30.395Z"
+  },
+  {
+    "id": "builtin_text-GXXQUi",
+    "formData": {
+      "text$en": "Hello I am a chatbot",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:52:11.677Z",
+    "modifiedOn": "2023-02-02T00:52:11.677Z"
+  },
+  {
+    "id": "builtin_text-07wR-J",
+    "formData": {
+      "text$en": "What is your name?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T00:52:38.895Z",
+    "modifiedOn": "2023-02-02T00:52:38.895Z"
+  },
+  {
+    "id": "builtin_text-SsJKLC",
+    "formData": {
+      "text$en": "Hello, I am a chatbot. ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:03:06.207Z",
+    "modifiedOn": "2023-02-02T01:23:50.194Z"
+  },
+  {
+    "id": "builtin_text-c6tHKl",
+    "formData": {
+      "text$en": "Hello",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:06:39.741Z",
+    "modifiedOn": "2023-02-02T01:06:39.741Z"
+  },
+  {
+    "id": "builtin_text-R0nPT0",
+    "formData": {
+      "text$en": "Nice to meet you, {{session.userName}}!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:08:21.558Z",
+    "modifiedOn": "2023-02-11T19:24:01.328Z"
+  },
+  {
+    "id": "builtin_text-3T0peo",
+    "formData": {
+      "text$en": "What's your name?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:24:02.197Z",
+    "modifiedOn": "2023-02-02T01:24:02.197Z"
+  },
+  {
+    "id": "builtin_text-6tZQ3A",
+    "formData": {
+      "text$en": "Whoops, looks like you fell out of bounds!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:40:54.089Z",
+    "modifiedOn": "2023-02-02T01:40:54.089Z"
+  },
+  {
+    "id": "builtin_text-0_PwtN",
+    "formData": {
+      "text$en": "Redirecting you back to a safe place",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:41:40.981Z",
+    "modifiedOn": "2023-02-02T01:41:40.981Z"
+  },
+  {
+    "id": "builtin_text-82wCBz",
+    "formData": {
+      "text$en": "Try writing something like: \"show me image from 2019 August 12\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Try writing something like: \"I want to see a picture from 2020 May 23\"",
+        "Try writing something like: \"Please display image from 2020 May 23\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-02T01:49:13.078Z",
+    "modifiedOn": "2023-02-11T19:26:39.379Z"
+  },
+  {
+    "id": "builtin_text-8yutIk",
+    "formData": {
+      "text$en": "Sorry, I did't get that",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Sorry, I don't understand",
+        "Excuse me, I didn't get that",
+        "Apologies, I do not understand"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-03T18:56:54.488Z",
+    "modifiedOn": "2023-02-16T17:42:30.224Z"
+  },
+  {
+    "id": "builtin_text-Zh9Mn0",
+    "formData": {
+      "text$en": "Do you remember where this image was taken?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-03T19:05:13.411Z",
+    "modifiedOn": "2023-02-16T17:45:10.553Z"
+  },
+  {
+    "id": "builtin_text-L5KVQY",
+    "formData": {
+      "text$en": "Thats reassuring!",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "How wonderful!",
+        "I am so happy for you!",
+        "That sounds very comforting!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-03T19:09:53.439Z",
+    "modifiedOn": "2023-04-19T14:24:13.555Z"
+  },
+  {
+    "id": "builtin_text-83TtDM",
+    "formData": {
+      "text$en": "That's alright, let's try another picture",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "No problem, let's look at another image",
+        "No worries, let's have a look at another photo",
+        "Don't worry, let's move on to another image",
+        "Don't stress, I will show you another picture to jog your mind"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-03T19:10:31.982Z",
+    "modifiedOn": "2023-04-18T22:03:07.794Z"
+  },
+  {
+    "id": "builtin_text-DRo4ZC",
+    "formData": {
+      "text$en": "Tell me when this image was taken",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-03T19:15:16.170Z",
+    "modifiedOn": "2023-02-05T17:52:06.806Z"
+  },
+  {
+    "id": "builtin_text-LmDgDy",
+    "formData": {
+      "text$en": "Please enter your user-id",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T16:16:08.245Z",
+    "modifiedOn": "2023-02-23T15:22:16.625Z"
+  },
+  {
+    "id": "builtin_text-VVCDML",
+    "formData": {
+      "text$en": "Invalid username. This should at least 4 digits",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T16:16:52.566Z",
+    "modifiedOn": "2023-02-23T15:22:50.581Z"
+  },
+  {
+    "id": "builtin_text-Qi82Vy",
+    "formData": {
+      "text$en": "That doesn't look like a valid user-id",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T16:39:42.414Z",
+    "modifiedOn": "2023-02-05T16:39:42.414Z"
+  },
+  {
+    "id": "builtin_text-SXaUi1",
+    "formData": {
+      "text$en": "NLU allows the chatbot to process messages",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T17:10:34.697Z",
+    "modifiedOn": "2023-02-05T17:10:34.697Z"
+  },
+  {
+    "id": "builtin_text-3s3KGs",
+    "formData": {
+      "text$en": "You said: {{session.buildingDate}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T17:40:23.828Z",
+    "modifiedOn": "2023-02-05T17:55:32.935Z"
+  },
+  {
+    "id": "builtin_text-XFUkdR",
+    "formData": {
+      "text$en": "Who do you associate with this picture?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Is there anyone you associate with this image?",
+        "Is there anyone or anything that reminds you of this photo?",
+        "With who do you relate most with this picture?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T17:53:21.759Z",
+    "modifiedOn": "2023-04-19T15:59:09.581Z"
+  },
+  {
+    "id": "builtin_text-wkBVOZ",
+    "formData": {
+      "text$en": "Here is a summary about this image: \nThe image was taken on: {{session.buildingDate}}, and people who lived there are: {{session.buildingMembers}} ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T17:56:25.895Z",
+    "modifiedOn": "2023-02-05T18:00:40.791Z"
+  },
+  {
+    "id": "builtin_text-sm5h-p",
+    "formData": {
+      "text$en": "The image was taken: {{session.imageDate}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T18:01:07.905Z",
+    "modifiedOn": "2023-03-11T15:39:26.679Z"
+  },
+  {
+    "id": "builtin_text-2MhZdB",
+    "formData": {
+      "text$en": "Here is a summary of our conversation",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T18:04:01.754Z",
+    "modifiedOn": "2023-03-06T16:39:50.194Z"
+  },
+  {
+    "id": "builtin_text-eFx5w2",
+    "formData": {
+      "text$en": "When was this image taken?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "When was this picture taken? ",
+        "When did you think this image was taken?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-05T18:05:47.862Z",
+    "modifiedOn": "2023-02-16T17:38:58.321Z"
+  },
+  {
+    "id": "builtin_text-Zp18zq",
+    "formData": {
+      "text$en": "Do you recognize this?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-08T14:51:58.700Z",
+    "modifiedOn": "2023-02-08T14:51:58.700Z"
+  },
+  {
+    "id": "builtin_text-y0M3tD",
+    "formData": {
+      "text$en": "try again",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-08T14:52:12.074Z",
+    "modifiedOn": "2023-02-08T14:52:12.074Z"
+  },
+  {
+    "id": "builtin_text-ptMKwj",
+    "formData": {
+      "text$en": "Please try again",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Can you please repeat that?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-08T15:12:21.511Z",
+    "modifiedOn": "2023-02-16T17:44:55.279Z"
+  },
+  {
+    "id": "builtin_text-dastQ2",
+    "formData": {
+      "text$en": "The people you associated with this image: {{session.imageMembers}} ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-08T15:15:55.234Z",
+    "modifiedOn": "2023-03-06T16:43:16.677Z"
+  },
+  {
+    "id": "builtin_text-bHqQ1J",
+    "formData": {
+      "text$en": "displaying image",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-08T15:23:24.943Z",
+    "modifiedOn": "2023-02-08T15:23:24.943Z"
+  },
+  {
+    "id": "builtin_text-Jl0W55",
+    "formData": {
+      "text$en": "Which dates would you like to get images from (try a date between 2015 to 2022)??",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-11T19:19:57.839Z",
+    "modifiedOn": "2023-02-11T19:19:57.839Z"
+  },
+  {
+    "id": "builtin_text-DxDnqT",
+    "formData": {
+      "text$en": "Not sure I got that. Maybe try YYYY-MM-DD, like 2016-02-12",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-11T19:21:03.412Z",
+    "modifiedOn": "2023-02-11T19:21:03.412Z"
+  },
+  {
+    "id": "builtin_text-v8de6f",
+    "formData": {
+      "text$en": "No pics on that day, try: \"May 10 2018\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "No pics on that day, try another date like: \"June 12 2018\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-11T19:42:46.018Z",
+    "modifiedOn": "2023-02-11T19:43:46.561Z"
+  },
+  {
+    "id": "builtin_text-ySGGVb",
+    "formData": {
+      "text$en": "There you go!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-11T20:10:54.961Z",
+    "modifiedOn": "2023-02-11T20:10:54.961Z"
+  },
+  {
+    "id": "builtin_text-qxHtcb",
+    "formData": {
+      "text$en": "Do you recognize this house?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-16T17:51:42.269Z",
+    "modifiedOn": "2023-02-16T17:51:42.269Z"
+  },
+  {
+    "id": "builtin_text-b03Yyg",
+    "formData": {
+      "text$en": "Create code that stores collection of images and will output image in sequence if user don't recognize it",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-16T18:07:31.339Z",
+    "modifiedOn": "2023-02-16T18:07:31.339Z"
+  },
+  {
+    "id": "builtin_text-lMLl11",
+    "formData": {
+      "text$en": "Type your username",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-23T15:24:44.212Z",
+    "modifiedOn": "2023-02-23T15:24:44.212Z"
+  },
+  {
+    "id": "builtin_text-8zQp4T",
+    "formData": {
+      "text$en": "Type something like \"Peter30291 is my username\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Type something like \"Check for username Holly94832\"",
+        "Type something like \"My account name is John30292\"",
+        "Write for example \"My account name is Megan2301\"",
+        "Try typing for example \"username Felix3109\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-23T15:27:03.620Z",
+    "modifiedOn": "2023-04-19T12:16:46.194Z"
+  },
+  {
+    "id": "builtin_text-K17Ep8",
+    "formData": {
+      "text$en": "Hmm, that doesn't seem right. The username should have your name followeed by digits. Try this\" username is Tristan2010\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Sorry, I didn't get that. Try for example \"username Dennis4092\"",
+        "Emm, I can't figure this out. Try for example \"my username is Emma2191\"",
+        "Whoops, I don't understand this. Please try for example \"Jake30291 is the account name\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-23T15:27:23.899Z",
+    "modifiedOn": "2023-04-19T12:22:40.238Z"
+  },
+  {
+    "id": "builtin_text-LLQgSc",
+    "formData": {
+      "text$en": "Sorry, I couldn't find you in our system",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Sorry, I could not find that username",
+        "Whoops, that username does not exist",
+        "Hmm,  you aren't registered in the system"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-23T15:28:35.372Z",
+    "modifiedOn": "2023-04-19T12:31:31.157Z"
+  },
+  {
+    "id": "builtin_text-KVulsx",
+    "formData": {
+      "text$en": "With whom am I chatting with today?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "What's your username?",
+        "Could you please introduce yourself?",
+        "Can you please tell me your username?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-26T20:14:18.949Z",
+    "modifiedOn": "2023-04-19T13:08:44.674Z"
+  },
+  {
+    "id": "builtin_text-OW3U5n",
+    "formData": {
+      "text$en": "Hello! Nice to meet you, I am a chatbot",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Hi there! I'm a chatbot and it's great to meet you",
+        "Welcome! I am a chatbot",
+        "Hey! I'm a chatbot"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-26T20:14:48.241Z",
+    "modifiedOn": "2023-04-19T13:08:26.879Z"
+  },
+  {
+    "id": "builtin_text-30UcJR",
+    "formData": {
+      "text$en": "Try writing something like \"Search for image from 2022 May 16\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Try writing something like \"Show me image from June 12 2020\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-27T16:20:37.781Z",
+    "modifiedOn": "2023-02-27T16:20:37.781Z"
+  },
+  {
+    "id": "builtin_text-FJGSXc",
+    "formData": {
+      "text$en": "Sorry, I didn't get that",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Sorry, I don't understand",
+        "Apologies, I didn't quite catch that"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-27T16:25:15.862Z",
+    "modifiedOn": "2023-02-27T16:25:15.862Z"
+  },
+  {
+    "id": "builtin_text-RmEfjV",
+    "formData": {
+      "text$en": "When was this image taken?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Do you know when this picture was captured?",
+        "At what date was this photograph taken?",
+        "When was this picture shot?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-27T18:03:20.150Z",
+    "modifiedOn": "2023-04-19T15:52:50.786Z"
+  },
+  {
+    "id": "builtin_text-j1ZF9Q",
+    "formData": {
+      "text$en": "Sorry, I didn't get that. Please enter a valid date like \"12 December 2012\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Hmm, I couldn't figure this out. Try for example \"September 3 2021\"",
+        "Excuse me, I don't understand. Try for example \"30 May 2018\"",
+        "Sorry, I didn't get that. Try this \"Last year\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-27T18:03:30.865Z",
+    "modifiedOn": "2023-04-19T15:54:32.387Z"
+  },
+  {
+    "id": "builtin_text-5Kp__k",
+    "formData": {
+      "text$en": "Sorry I didn't get that. Please enter a valid date, for example \"21 June 2021\"",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "I don't understand. Please give a correct date format, such as \"14 March 2022\"",
+        "Sorry, I could not understand. Give me a valid date, like \"Aprol 20 2020\"",
+        "Excuse me, I don't know what you mean. Please provide me a valid date, like \"Two years ago\""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-27T18:05:20.316Z",
+    "modifiedOn": "2023-04-19T15:56:29.622Z"
+  },
+  {
+    "id": "builtin_text-aLttkq",
+    "formData": {
+      "text$en": "Interesting! You've mentioned some relatives",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "How nice, let's dive deeper into your relatives",
+        "Amazing! Tell me more about your relatives",
+        "Your relatives sound interesting, let's discuss further"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-01T01:49:50.545Z",
+    "modifiedOn": "2023-04-19T15:59:01.825Z"
+  },
+  {
+    "id": "builtin_text-i45g3W",
+    "formData": {
+      "text$en": "Do you recognize this image?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Is this image familiar to you?",
+        "Do you know this picture?",
+        "Have you seen this image before?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-03T17:57:53.977Z",
+    "modifiedOn": "2023-04-18T22:01:45.946Z"
+  },
+  {
+    "id": "builtin_text-LeY_jF",
+    "formData": {
+      "text$en": "The people who live there: {{session.imageDate}} ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T16:16:27.307Z",
+    "modifiedOn": "2023-03-06T16:16:27.307Z"
+  },
+  {
+    "id": "builtin_text-zJIrHj",
+    "formData": {
+      "text$en": "Here's a summary of our conversation: \nYou mentioned no relatives: \n{{session.noRelatives}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T16:26:43.890Z",
+    "modifiedOn": "2023-03-11T15:41:29.798Z"
+  },
+  {
+    "id": "builtin_text-JvQOAc",
+    "formData": {
+      "text$en": "Image date taken: {{session.imageDate}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T16:31:07.305Z",
+    "modifiedOn": "2023-03-06T16:31:07.305Z"
+  },
+  {
+    "id": "builtin_text-dn_CuV",
+    "formData": {
+      "text$en": "Here is a short summary of our conversation",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T16:41:30.414Z",
+    "modifiedOn": "2023-03-06T16:41:30.414Z"
+  },
+  {
+    "id": "builtin_text-zTdwNt",
+    "formData": {
+      "text$en": "People who you associated with this image: {{session.imagemembers}} {{session.NoRelatives}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T16:42:19.388Z",
+    "modifiedOn": "2023-03-11T15:40:32.583Z"
+  },
+  {
+    "id": "builtin_text-q1nBUe",
+    "formData": {
+      "text$en": "No problem, I will ask you a few questions to help you to jog your memory",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Don't worry, let's continue anyway. Maybe you will remember it later",
+        "That's alright, I will ask you some questions to help your memory"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T16:57:38.481Z",
+    "modifiedOn": "2023-04-19T15:58:51.735Z"
+  },
+  {
+    "id": "builtin_text--JEU3r",
+    "formData": {
+      "text$en": "That's all! Thanks for the responses",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T17:00:09.389Z",
+    "modifiedOn": "2023-03-06T17:04:09.022Z"
+  },
+  {
+    "id": "builtin_text-nqZywH",
+    "formData": {
+      "text$en": "Can you tell me a bit more about the people you have mentioned? ",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "What did you do at that place? ",
+        "I want you to tell me a bit more about the people in this image",
+        "How are you related to the people in the image? ",
+        ""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T17:15:48.760Z",
+    "modifiedOn": "2023-04-17T22:48:12.388Z"
+  },
+  {
+    "id": "builtin_text-puFoFv",
+    "formData": {
+      "text$en": "And finally, what memories do you have of that time and place?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Tell me an interesting story that happened there."
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T17:45:24.657Z",
+    "modifiedOn": "2023-03-25T18:02:07.450Z"
+  },
+  {
+    "id": "builtin_text-28c7z8",
+    "formData": {
+      "text$en": "Where was the picture taken?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Do you know where this picture was captured?",
+        "From where was this picture taken?",
+        "Can you tell me the location where the picture was taken?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T17:46:33.686Z",
+    "modifiedOn": "2023-03-25T18:00:51.620Z"
+  },
+  {
+    "id": "builtin_text-2AMpPG",
+    "formData": {
+      "text$en": "Tell me an interesting story that happened there",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T17:47:22.222Z",
+    "modifiedOn": "2023-03-06T17:47:22.222Z"
+  },
+  {
+    "id": "builtin_text-pWXjJL",
+    "formData": {
+      "text$en": "What was the weather like when this image was taken?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-06T17:48:13.002Z",
+    "modifiedOn": "2023-03-06T17:48:13.002Z"
+  },
+  {
+    "id": "builtin_text-Ly4WG-",
+    "formData": {
+      "text$en": "{{session.noRelatives}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T15:41:54.350Z",
+    "modifiedOn": "2023-03-11T15:41:54.350Z"
+  },
+  {
+    "id": "builtin_text-9sMByQ",
+    "formData": {
+      "text$en": "{{session.currentImage}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T15:44:53.058Z",
+    "modifiedOn": "2023-03-11T15:44:53.058Z"
+  },
+  {
+    "id": "builtin_text-QriwXa",
+    "formData": {
+      "text$en": "Alright! Redirecting you back to the main menu...",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Hold on tight! moving you back to the main menu...",
+        "Sure thing! Placing you back to the main menu..."
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:39:50.359Z",
+    "modifiedOn": "2023-04-19T12:47:06.305Z"
+  },
+  {
+    "id": "builtin_text-rPyj4P",
+    "formData": {
+      "text$en": "Sure! Here's a summary about the places you have mentioned: ",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:43:31.646Z",
+    "modifiedOn": "2023-03-11T16:43:31.646Z"
+  },
+  {
+    "id": "builtin_text-3twc6v",
+    "formData": {
+      "text$en": "Here's a summary about our conversation when you mentioned your family:",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:52:51.514Z",
+    "modifiedOn": "2023-03-11T16:52:51.514Z"
+  },
+  {
+    "id": "builtin_text-vuQ_oM",
+    "formData": {
+      "text$en": "Weather at that time: {{session.placeWeather}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:54:12.703Z",
+    "modifiedOn": "2023-03-11T17:43:17.350Z"
+  },
+  {
+    "id": "builtin_text-WK-o96",
+    "formData": {
+      "text$en": "Location of image: {{session.placeLocation}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:55:58.329Z",
+    "modifiedOn": "2023-03-11T17:09:24.263Z"
+  },
+  {
+    "id": "builtin_text-TTfW69",
+    "formData": {
+      "text$en": "Specific weather at that time: {{session.warmWeather}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:56:21.898Z",
+    "modifiedOn": "2023-03-15T03:33:07.102Z"
+  },
+  {
+    "id": "builtin_text-ydsAbz",
+    "formData": {
+      "text$en": "Let's discover more about them!",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T16:58:53.783Z",
+    "modifiedOn": "2023-03-11T16:58:53.783Z"
+  },
+  {
+    "id": "builtin_text-dmIm6C",
+    "formData": {
+      "text$en": "Who took this photo?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Who was behind the camera?",
+        "Who was not in that picture but was at that place too?",
+        "Who snapped this picture?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:20:25.986Z",
+    "modifiedOn": "2023-04-17T22:48:39.927Z"
+  },
+  {
+    "id": "builtin_text-FtUEJg",
+    "formData": {
+      "text$en": "Can you tell me a bit more about this place? ",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Would you mind elaborating on this place a bit more for me?",
+        "Could you provide me with some additional information about this location?",
+        "I would like to know more about this place. Could you share some details with me?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:26:48.240Z",
+    "modifiedOn": "2023-03-25T18:03:33.470Z"
+  },
+  {
+    "id": "builtin_text-du_x_l",
+    "formData": {
+      "text$en": "What were you doing at that time? ",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Could you describe what you were doing during that period?",
+        "Can you recount what you were doing at that time?",
+        "I'm interested in learning about the activity you were involved in during that particular moment. What were you doing?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:27:53.028Z",
+    "modifiedOn": "2023-03-25T18:04:50.365Z"
+  },
+  {
+    "id": "builtin_text-i9JAGy",
+    "formData": {
+      "text$en": "Information about the place: {{session.placeInfo}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:40:57.414Z",
+    "modifiedOn": "2023-03-11T17:40:57.414Z"
+  },
+  {
+    "id": "builtin_text-bI2JYV",
+    "formData": {
+      "text$en": "What you were doing at that time: {{session.doingTime}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:42:14.157Z",
+    "modifiedOn": "2023-03-11T17:42:14.157Z"
+  },
+  {
+    "id": "builtin_text-0u0cTO",
+    "formData": {
+      "text$en": "So cold! How did you feel during that weather?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:55:33.057Z",
+    "modifiedOn": "2023-03-11T17:55:33.057Z"
+  },
+  {
+    "id": "builtin_text-wGrY7a",
+    "formData": {
+      "text$en": "How warm! Tell me an activity you enjoyed most during that weather",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T18:01:53.317Z",
+    "modifiedOn": "2023-03-11T18:01:53.317Z"
+  },
+  {
+    "id": "builtin_text-y6rTyT",
+    "formData": {
+      "text$en": "Cold weather: {{session.coldWeather}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:38:47.768Z",
+    "modifiedOn": "2023-03-15T03:38:47.768Z"
+  },
+  {
+    "id": "builtin_text-R_jCcA",
+    "formData": {
+      "text$en": "What was the weather like at that time?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "What kind of weather were you experiencing during that period?",
+        "How would you characterize the weather at that particular time?",
+        "Can you describe the atmospheric conditions during that time?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:42:35.123Z",
+    "modifiedOn": "2023-03-25T18:12:53.429Z"
+  },
+  {
+    "id": "builtin_text-1XW3iv",
+    "formData": {
+      "text$en": "That's all! Thanks for your time",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "All done! I have saved your responses",
+        "That's all! Thanks for sharing",
+        "That's all we have left, very interesting responses!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:47:10.709Z",
+    "modifiedOn": "2023-04-19T13:46:48.284Z"
+  },
+  {
+    "id": "builtin_text-eJz_UJ",
+    "formData": {
+      "text$en": "Do you remember what you did together in that picture?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:50:17.478Z",
+    "modifiedOn": "2023-03-15T03:50:17.478Z"
+  },
+  {
+    "id": "builtin_text-h-OCD1",
+    "formData": {
+      "text$en": "Tell me your favourite memory you have with your parents at that time of taking this image",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:50:50.751Z",
+    "modifiedOn": "2023-03-22T13:42:05.050Z"
+  },
+  {
+    "id": "builtin_text-YNYQ8l",
+    "formData": {
+      "text$en": "Do you still keep in touch with the people in the picture?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Do you still meet up with some of the people you've just mentioned?",
+        "Do you regularly meet up with those relatives? What do you normally do together?",
+        "Are you still in contact with that person?",
+        "Have you done anything memorable with that person recently?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:52:26.558Z",
+    "modifiedOn": "2023-04-17T22:49:55.064Z"
+  },
+  {
+    "id": "builtin_text-2e03W_",
+    "formData": {
+      "text$en": "That’s so cool! Did you guys do anything crazy or memorable together?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Interesting! Did you experience any exciting moments together?",
+        "Tell me your favourite memory you have with your parents at that time of taking this image",
+        "Nice! What are some activities you did on that day together?",
+        "Sounds fun! Tell me a bit more about some activities you did at that place"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-15T03:53:45.250Z",
+    "modifiedOn": "2023-04-17T22:47:57.763Z"
+  },
+  {
+    "id": "builtin_text-oyKto7",
+    "formData": {
+      "text$en": "Thanks for the conversation! I have recorded your responses",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "That's all! Thanks for sharing",
+        "And we're done! You can view your responses in the \"Show conversation summary\" menu choice"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-25T16:34:24.807Z",
+    "modifiedOn": "2023-04-19T13:49:18.479Z"
+  },
+  {
+    "id": "builtin_text-TJnvzg",
+    "formData": {
+      "text$en": "When was this image taken?",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-25T17:06:19.371Z",
+    "modifiedOn": "2023-03-25T17:06:19.371Z"
+  },
+  {
+    "id": "builtin_text-s5zVhQ",
+    "formData": {
+      "text$en": "{{event.state.session.history}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-27T16:17:14.818Z",
+    "modifiedOn": "2023-03-27T16:17:14.818Z"
+  },
+  {
+    "id": "builtin_text-4Sv-VL",
+    "formData": {
+      "text$en": "clearing previous response",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-27T16:39:26.276Z",
+    "modifiedOn": "2023-03-27T16:39:26.276Z"
+  },
+  {
+    "id": "builtin_text-l8me64",
+    "formData": {
+      "text$en": "{{session.imageDate}}",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-27T16:40:32.594Z",
+    "modifiedOn": "2023-03-27T16:40:51.810Z"
+  },
+  {
+    "id": "builtin_text-e7gIQL",
+    "formData": {
+      "text$en": "What's your relationship like with these relatives?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "How do you get along with these relatives?",
+        "Could you describe the dynamic between you and these relatives?",
+        "Do you have a close or distant relationship with these relatives?",
+        "In what way are you connected to these relatives?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-17T22:31:38.020Z",
+    "modifiedOn": "2023-04-18T22:05:44.173Z"
+  },
+  {
+    "id": "builtin_text-hAXCPq",
+    "formData": {
+      "text$en": "Thanks for providing me some information about your recent trip to London. Let's look at some pictures",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Thanks for the pictures you have provided me from your recent trip to London. ",
+        "Let's look at some pictures you associate with your recent trip to London"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-18T21:56:43.304Z",
+    "modifiedOn": "2023-04-18T22:01:09.489Z"
+  },
+  {
+    "id": "builtin_text-qyD62f",
+    "formData": {
+      "text$en": "Oh, I'm sorry to hear that",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Damn, that's not great",
+        "Cheer up, it will be alright",
+        "Don't worry, it will get better",
+        "I'm sure it will get better soon"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-18T22:24:34.716Z",
+    "modifiedOn": "2023-04-19T14:26:19.109Z"
+  },
+  {
+    "id": "builtin_text-Vx2VfC",
+    "formData": {
+      "text$en": "No problem, I understand",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Ok, let's move on",
+        "Sure, no problem",
+        "Alright, let's carry on"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-18T22:24:46.116Z",
+    "modifiedOn": "2023-04-19T14:29:25.740Z"
+  },
+  {
+    "id": "builtin_text-C_mOPv",
+    "formData": {
+      "text$en": "Here is a short audio recording of your trip to London. Can you tell me what this reminds you of?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Here's a short audio clip of London traffic. What emotions does this bring out?",
+        "Here I have a audio sample of London's urban sounds. Could you tell me a bit about this? "
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-19T01:34:42.181Z",
+    "modifiedOn": "2023-04-19T01:39:30.271Z"
+  },
+  {
+    "id": "builtin_text-Tx1EMZ",
+    "formData": {
+      "text$en": "Finally, here's a video of your family having dinner. Could you tell me a memorable story at that time?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Lastly, here's a video of your family dinner gathering. What was the occasion for this?",
+        "And finally, look at this video of your family having a dinner party! Who was invited to this gathering and what did you eat?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-19T01:56:24.891Z",
+    "modifiedOn": "2023-04-19T01:56:24.891Z"
+  },
+  {
+    "id": "builtin_text-Nhg8AB",
+    "formData": {
+      "text$en": "Let's have a conversation about your past life experiences. I'll show you some pictures and videos and you can explain them to me",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "How about we have a discussion about your past experiences? I have some visual aids that could assist you in explaining them",
+        "I'd love to hear about your life experiences. Would you like to take a look at some pictures and videos that might help jog your memory",
+        "Let's talk about your past and the experiences. I have some visual aids that could aid in your explanations"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-19T12:11:58.020Z",
+    "modifiedOn": "2023-04-19T12:36:32.766Z"
+  },
+  {
+    "id": "builtin_text-MA5vhv",
+    "formData": {
+      "text$en": "Once we have ended our conversation, you can view your responses in the \"Show conversation Summary\" menu choice",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Once our conversation is finished, you can review your responses by selecting \"Show conversation Summary\" from the menu",
+        "When we're done talking, you can see a summary of our conversation by choosing \"Show conversation Summary\" from the menu",
+        "After we wrap up our chat, you can view your responses by clicking on the \"Show conversation Summary\" option"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-19T12:38:46.274Z",
+    "modifiedOn": "2023-04-19T13:04:56.532Z"
+  },
+  {
+    "id": "builtin_text-avcxf_",
+    "formData": {
+      "text$en": "Here's a weather recording of London. How does this remind you of that place?",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Take a listen to this weather recording of London. Does it bring to mind any experiences you've had there?",
+        "Listen to this weather audio from London. Does it conjure up any emotions about that location?",
+        "This is a recording of London's weather. Can you recall any particular moments or feelings associated with that city as you listen?"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-19T13:26:08.013Z",
+    "modifiedOn": "2023-04-19T13:26:08.013Z"
+  },
+  {
+    "id": "builtin_text-UAzu6U",
+    "formData": {
+      "text$en": "Navigate to the \"UserResponses\" folder to view your conversations stored in JSON files",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "You can find your conversations stored in JSON files by going to the \"UserResponses\" folder",
+        "To view your conversations saved in JSON files, navigate to the \"UserResponses\" folder",
+        "The JSON files containing your conversations are stored in the \"UserResponses\" folder, which you can navigate to"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-04-19T16:48:55.123Z",
+    "modifiedOn": "2023-04-19T16:48:55.123Z"
+  }
+]

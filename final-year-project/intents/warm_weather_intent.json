@@ -1,0 +1,25 @@
+{
+  "name": "warm_weather_intent",
+  "utterances": {
+    "en": [
+      "Sunny day outside in the garden",
+      "It felt very warm under the intense sun",
+      "The sun was shining brightly",
+      "I felt very hot and was sweating",
+      "The temperature was very high",
+      "It is mid summer and it was very bright outside",
+      "The sun is really intense today",
+      "I was very warm weather",
+      "I'm sweating in this weather",
+      "It feels like an oven outside",
+      "The air is so humid right now",
+      "I need to stay hydrated in this heat",
+      "It's too warm to stay indoors",
+      "The heat is making me feel lethargic"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

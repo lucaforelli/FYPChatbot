@@ -1,0 +1,24 @@
+{
+  "name": "cold_weather_intent",
+  "utterances": {
+    "en": [
+      "It was snowing heavily",
+      "This year's climate has been exceptionally cold",
+      "It's so windy outside today",
+      "It was very cold",
+      "it was freezing weather at that time",
+      "The bitter cold wind was biting at my cheeks",
+      "The wind is so icy",
+      "I can see my breath in the air",
+      "The temperature is below zero",
+      "My feet feel like blocks of ice",
+      "I love hot cocoa on chilly days",
+      "The rain dropped down the temperature",
+      "There was strong wind that made me feel very cold"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

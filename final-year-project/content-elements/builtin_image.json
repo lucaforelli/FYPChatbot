@@ -1,0 +1,68 @@
+[
+  {
+    "id": "builtin_image-1sCZma",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/final-year-project/media/ilj33jqo12rgkuluw6y9-dillon-kydd-XGvwt544g8k-unsplash.jpg",
+      "title$en": "House 1"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-03T19:03:21.021Z",
+    "modifiedOn": "2023-02-16T17:50:55.229Z"
+  },
+  {
+    "id": "builtin_image-mMpoYH",
+    "formData": {
+      "typing$en": true,
+      "title$en": "Image from Nasa Mars rover",
+      "image$en": "{{{temp.roverImageUrl}}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-11T20:08:59.741Z",
+    "modifiedOn": "2023-02-11T20:08:59.741Z"
+  },
+  {
+    "id": "builtin_image-KTZzfB",
+    "formData": {
+      "typing$en": true,
+      "image$en": "{{{temp.roverImageUrl}}}",
+      "title$en": "Rover Image"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-11T20:10:20.628Z",
+    "modifiedOn": "2023-02-11T20:10:20.628Z"
+  },
+  {
+    "id": "builtin_image-unOvTA",
+    "formData": {
+      "typing$en": true,
+      "title$en": "Random Image",
+      "image$en": "https://images.unsplash.com/photo-1675427523142-b7c3e6acdbdc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3NjQ3NTI4MQ&ixlib=rb-4.0.3&q=80&w=300"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-15T15:33:50.986Z",
+    "modifiedOn": "2023-02-15T15:35:07.888Z"
+  },
+  {
+    "id": "builtin_image-nU4ycG",
+    "formData": {
+      "typing$en": true,
+      "title$en": "House 3",
+      "image$en": "/api/v1/bots/final-year-project/media/oc1pazyz1q8xa2lfh1bk-todd-kent-178j8tJrNlc-unsplash.jpg"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-16T17:35:34.776Z",
+    "modifiedOn": "2023-02-16T18:02:41.317Z"
+  },
+  {
+    "id": "builtin_image-DvHRgE",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/final-year-project/media/usdo9zs4nvkfp14ohgpi-johnson-johnson-U6Q6zVDgmSs-unsplash.jpg",
+      "title$en": "House 3"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-02-16T18:02:16.682Z",
+    "modifiedOn": "2023-02-16T18:02:16.682Z"
+  }
+]

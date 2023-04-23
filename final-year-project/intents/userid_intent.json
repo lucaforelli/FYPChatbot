@@ -1,0 +1,34 @@
+{
+  "name": "userid_intent",
+  "utterances": {
+    "en": [
+      "type for [4039](userid_slot)",
+      "[4335](userid_slot) is my id",
+      "can you check for [2019](userid_slot)",
+      "here is my user id [1090](userid_slot)",
+      "[4345](userid_slot)",
+      "userid [3434](userid_slot)",
+      "[9000](userid_slot) is my user id",
+      "where is my status [2000](userid_slot)",
+      "status [3049](userid_slot)",
+      "user type [5839](userid_slot)",
+      "what type of user am I [3080](userid_slot)",
+      "can you check what user I am [5812](userid_slot)",
+      "track status [8576](userid_slot)",
+      "get user type for [8567](userid_slot)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "zsaz-B_hC-5PqfW6LOZYb",
+      "name": "userid_slot",
+      "entities": [
+        "user_entity"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

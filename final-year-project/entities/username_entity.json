@@ -1,0 +1,20 @@
+{
+  "id": "username_entity",
+  "name": "username_entity",
+  "type": "pattern",
+  "occurrences": [],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [
+    "Benjamin20",
+    "Peter2019",
+    "Mary5929",
+    "linus9849",
+    "Pete0595",
+    "Julia94739",
+    "Roger93829",
+    "Lyra48372"
+  ],
+  "pattern": "^[A-Za-z][A-Za-z0-9_]{7,29}$",
+  "matchCase": false
+}

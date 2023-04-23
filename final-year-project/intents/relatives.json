@@ -1,0 +1,43 @@
+{
+  "name": "relatives",
+  "utterances": {
+    "en": [
+      "my father is there",
+      "sister and brother",
+      "they are my grandparents",
+      "uncle and aunt",
+      "nephew and niece",
+      "son and daughter",
+      "parents",
+      "family",
+      "friends and family met in London",
+      "family trip to London",
+      "I went to London with my uncle and aunt",
+      "I met up with my sister and brother in the London city centre",
+      "I had a trip with my sister-in law together with her husbannd",
+      "I remember going with my grandmother to that place",
+      "That is my mother",
+      "I remember my mum",
+      "I believe it is my mama",
+      "I am sure it is my mom",
+      "Those are my distant cousins",
+      "my ma",
+      "I can recognize my mumsy",
+      "I think it is my maternal parent",
+      "they are my child-bearer",
+      "That is my mother",
+      "this is my mummy",
+      "last years summer trip to london along with nephew and niece",
+      "my cousins accompanied me along on this trip to london",
+      "I believe it is my mama",
+      "I am sure it is my mom",
+      "I can recognize my mumsy",
+      "I think it is my maternal parent",
+      "they are my child-bearer"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "steps": [
+    {
+      "userMessage": "Hi",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-OW3U5n",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_text-Nhg8AB",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_text-MA5vhv",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_text-KVulsx",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_text-8zQp4T",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "username alex3030",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_single-choice-kk-lor",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "Begin our conversation",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-hAXCPq",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_text-i45g3W",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_single-choice-eL9a9i",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "Yes",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-RmEfjV",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "last year",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-XFUkdR",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "parents visited there",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-28c7z8",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "aa",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-C_mOPv",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_audio-9dpxep",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "w",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-FtUEJg",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "w",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-du_x_l",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "f",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-R_jCcA",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "it was breezy",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-wGrY7a",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "eating ice",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-puFoFv",
+          "replySource": "dialogManager"
+        }
+      ]
+    },
+    {
+      "userMessage": "s",
+      "botReplies": [
+        {
+          "botResponse": "#!builtin_text-1XW3iv",
+          "replySource": "dialogManager"
+        },
+        {
+          "botResponse": "#!builtin_single-choice-kk-lor",
+          "replySource": "dialogManager"
+        }
+      ]
+    }
+  ],
+  "initialState": {
+    "__stacktrace": [],
+    "user": {
+      "timezone": 1,
+      "language": "en"
+    },
+    "context": {},
+    "session": {
+      "workflows": {}
+    },
+    "temp": {}
+  },
+  "finalState": {
+    "__stacktrace": [
+      {
+        "flow": "place-questions.flow.json",
+        "node": "save_place_memory"
+      },
+      {
+        "flow": "place-questions.flow.json",
+        "node": "place_end"
+      },
+      {
+        "flow": "choice-menu.flow.json",
+        "node": "action_select"
+      }
+    ],
+    "user": {
+      "timezone": 1,
+      "language": "en"
+    },
+    "context": {
+      "currentFlow": "skills/choice-663ad2.flow.json",
+      "currentNode": "parse",
+      "previousFlow": "choice-menu.flow.json",
+      "previousNode": "action_select"
+    },
+    "session": {
+      "workflows": {},
+      "slots": {
+        "notFound": 0,
+        "username_slot": {
+          "confidence": 0.9915819228528048,
+          "start": 9,
+          "end": 17,
+          "entity": null,
+          "name": "username_slot",
+          "source": "alex3030",
+          "value": "alex3030",
+          "timestamp": 1681910321011,
+          "turns": 11,
+          "overwritable": true,
+          "expiresAfterTurns": false
+        },
+        "itemDate_slot": {
+          "name": "itemDate_slot",
+          "value": "2022-01-01T00:00:00.000+00:00",
+          "entity": {
+            "name": "time",
+            "type": "system.time",
+            "meta": {
+              "confidence": 1,
+              "start": 0,
+              "end": 9,
+              "sensitive": false,
+              "source": "last year"
+            },
+            "data": {
+              "unit": "year",
+              "value": "2022-01-01T00:00:00.000+00:00"
+            }
+          },
+          "timestamp": 1681910339765,
+          "turns": 8,
+          "overwritable": true
+        }
+      },
+      "nluContexts": [
+        {
+          "context": "global",
+          "ttl": 991
+        }
+      ],
+      "currentImage": "Begin our conversation",
+      "imageDate": "last year",
+      "noRelatives": "parents visited there",
+      "placeLocation": "aa",
+      "busAudio": "w",
+      "placeInfo": "w",
+      "doingTime": "f",
+      "warmWeather": "eating ice",
+      "placeMemory": "s"
+    },
+    "temp": {
+      "tryFillSlotCount": 1,
+      "extracted": "true",
+      "notExtracted": false,
+      "alreadyExtracted": false,
+      "skill-choice-invalid-count-4oienfybuk": 0,
+      "skill-choice-valid-4oienfybuk": null,
+      "skill-choice-ret-4oienfybuk": null,
+      "skill-choice-invalid-count-j75xqekowy": 0,
+      "skill-choice-valid-j75xqekowy": true,
+      "skill-choice-ret-j75xqekowy": "Yes"
+    }
+  }
+}

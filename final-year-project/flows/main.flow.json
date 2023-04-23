@@ -1,0 +1,91 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "check_username",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "check_username",
+      "next": [
+        {
+          "condition": "session.userName",
+          "conditionType": "raw",
+          "node": "choice-menu.flow.json"
+        },
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "greetings"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "984832f00e",
+      "name": "validate_username",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "user-name.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-KVulsx"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9cdf239d09",
+      "name": "greetings",
+      "next": [
+        {
+          "condition": "true",
+          "node": "introduce"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OW3U5n"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9d24397781",
+      "name": "introduce",
+      "next": [
+        {
+          "condition": "true",
+          "node": "summary_instructions"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Nhg8AB",
+        "builtin/wait {\"delay\":\"4000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "535ff7306d",
+      "name": "summary_instructions",
+      "next": [
+        {
+          "condition": "true",
+          "node": "validate_username"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-MA5vhv",
+        "builtin/wait {\"delay\":\"3000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

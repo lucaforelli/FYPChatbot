@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "dcbf1fa2b8",
+      "position": {
+        "x": 505,
+        "y": 295
+      }
+    },
+    {
+      "id": "skill-2ddaa1",
+      "position": {
+        "x": 145,
+        "y": 130
+      }
+    },
+    {
+      "id": "3daaeb9678",
+      "position": {
+        "x": 495,
+        "y": 65
+      }
+    },
+    {
+      "id": "af5abf9919",
+      "position": {
+        "x": 780,
+        "y": 95
+      }
+    },
+    {
+      "id": "6e74d9806e",
+      "position": {
+        "x": 1050,
+        "y": 120
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "3daaeb9678",
+      "sourcePort": "out1",
+      "target": "af5abf9919",
+      "points": [
+        {
+          "x": 695,
+          "y": 190
+        },
+        {
+          "x": 780,
+          "y": 112
+        }
+      ]
+    },
+    {
+      "source": "3daaeb9678",
+      "sourcePort": "out0",
+      "target": "dcbf1fa2b8",
+      "points": [
+        {
+          "x": 695,
+          "y": 160
+        },
+        {
+          "x": 505,
+          "y": 312
+        }
+      ]
+    },
+    {
+      "source": "af5abf9919",
+      "sourcePort": "out0",
+      "target": "6e74d9806e",
+      "points": [
+        {
+          "x": 980,
+          "y": 203
+        },
+        {
+          "x": 1050,
+          "y": 137
+        }
+      ]
+    },
+    {
+      "source": "dcbf1fa2b8",
+      "sourcePort": "out0",
+      "target": "skill-2ddaa1",
+      "points": [
+        {
+          "x": 705,
+          "y": 393
+        },
+        {
+          "x": 145,
+          "y": 147
+        }
+      ]
+    },
+    {
+      "source": "skill-2ddaa1",
+      "sourcePort": "out0",
+      "target": "3daaeb9678",
+      "points": [
+        {
+          "x": 345,
+          "y": 174
+        },
+        {
+          "x": 495,
+          "y": 82
+        }
+      ]
+    },
+    {
+      "source": "skill-2ddaa1",
+      "sourcePort": "out2",
+      "target": "3daaeb9678",
+      "points": [
+        {
+          "x": 345,
+          "y": 237
+        },
+        {
+          "x": 495,
+          "y": 82
+        }
+      ]
+    }
+  ]
+}

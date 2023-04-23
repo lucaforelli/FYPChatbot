@@ -1,0 +1,35 @@
+{
+  "name": "disagree",
+  "utterances": {
+    "en": [
+      "negative",
+      "nay",
+      "this is incorrect",
+      "untrue",
+      "fake",
+      "that is off the mark",
+      "unsound",
+      "i don't know",
+      "I have not",
+      "I do not recognize it",
+      "I have not seen this before",
+      "I have never",
+      "I dont",
+      "I have no recollection",
+      "I do not remember",
+      "I cannot say",
+      "no",
+      "disagree",
+      "I do not understand",
+      "that is not ture",
+      "I do not agree",
+      "this is false",
+      "my response is no",
+      "my recollection tells me diffent"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

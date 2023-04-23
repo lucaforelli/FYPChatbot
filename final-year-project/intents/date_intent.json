@@ -1,0 +1,37 @@
+{
+  "name": "date_intent",
+  "utterances": {
+    "en": [
+      "that was taken from [yesterday](itemDate_slot)",
+      "This was taken on [June 12 2020](itemDate_slot)",
+      "this dates from [last year](itemDate_slot)",
+      "date: [20-10-2022](itemDate_slot)",
+      "from [this summer](itemDate_slot)",
+      "I remember it from [14th of July 2018](itemDate_slot)",
+      "I think [9 October 2019](itemDate_slot)",
+      "that is [September 3rd 2022](itemDate_slot)",
+      "this is from [7 Dec 2012](itemDate_slot)",
+      "from [30-05-2013](itemDate_slot)",
+      "the date is [5th April 2022](itemDate_slot)",
+      "[2022 March 20](itemDate_slot) is the date",
+      "this was from [seven years ago](itemDate_slot)",
+      "it is from [this year](itemDate_slot)",
+      "that was from [last month](itemDate_slot)",
+      "taken [last spring](itemDate_slot)",
+      "it is from [this autumn](itemDate_slot)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "ElPi_iVcZjlZ07VAsMEt3",
+      "name": "itemDate_slot",
+      "entities": [
+        "time"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

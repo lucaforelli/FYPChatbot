@@ -1,0 +1,26 @@
+{
+  "name": "bad_relationship",
+  "utterances": {
+    "en": [
+      "they are very rude to me",
+      "It is always not a very pleasant experience meeting up with them",
+      "I don't like my family members, we often fight",
+      "I alway have a bad argument with my relatives when I meet them",
+      "My relationship with them are not good",
+      "We don't see eye to eye very much",
+      "I dread family gatherings, it always ends in a fight",
+      "I can't stand being around my parents, they're always criticizing me",
+      "My sister is constantly taking advantage of me, it's really frustrating",
+      "Every time I try to talk to my brother, he shuts me out",
+      "My uncle is always making inappropriate comments, it makes me uncomfortable",
+      "I wish I could cut ties with my toxic family members, but it's not that simple",
+      "Family drama is always ruining my mood, it's exhausting",
+      "I get very angry when my relatives try to make fun of me",
+      "not very well relationship"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

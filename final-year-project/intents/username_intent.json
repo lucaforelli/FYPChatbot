@@ -1,0 +1,35 @@
+{
+  "name": "username_intent",
+  "utterances": {
+    "en": [
+      "[Benjamin2098](username_slot) is my username",
+      "type for [Peter20910](username_slot)",
+      "here is my username [Mary0292](username_slot)",
+      "user [Samantha39282](username_slot)",
+      "get username [John83218](username_slot)",
+      "This is my username [Brendan181739](username_slot)",
+      "My name [Molly2091](username_slot)",
+      "username [Frank5329](username_slot)",
+      "account name is Diana5838",
+      "That is my personal account usermame [Richard43919](username_slot)",
+      "That is my account [Irena3018](username_slot)",
+      "Here I provide my username Lois2918",
+      "[Fabian2023](username_slot)",
+      "My name is [Walter2015](username_slot)",
+      "validate user [Hai2019](username_slot)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "iCjQ5-X2Pe8G8gVPVaZkd",
+      "name": "username_slot",
+      "entities": [
+        "username_entity"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

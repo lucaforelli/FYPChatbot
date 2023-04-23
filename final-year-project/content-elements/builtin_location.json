@@ -1,0 +1,15 @@
+[
+  {
+    "id": "builtin_location-ZS5Lma",
+    "formData": {
+      "typing$en": true,
+      "latitude$en": 52.487773271063276,
+      "longitude$en": -1.8896138690039266,
+      "address$en": "https://www.google.com/maps",
+      "title$en": "Aston Main Building"
+    },
+    "createdBy": "admin",
+    "createdOn": "2023-03-11T17:22:06.525Z",
+    "modifiedOn": "2023-03-11T17:25:53.513Z"
+  }
+]

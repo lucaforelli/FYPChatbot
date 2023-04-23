@@ -1,0 +1,242 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "story_context",
+  "description": "",
+  "nodes": [
+    {
+      "id": "c12c50075f",
+      "name": "save_date",
+      "next": [
+        {
+          "condition": "true",
+          "node": "member"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"imageDate\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "41e63a53fa",
+      "name": "unrecognized",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "random_place_image"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-83TtDM",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "17d6678b0b",
+      "name": "member",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'relatives'",
+          "conditionType": "intent",
+          "node": "relatives"
+        },
+        {
+          "condition": "true",
+          "node": "save_no_relatives"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-XFUkdR"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "skill-6abb29",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "date_validation",
+      "flow": "skills/Slot-6abb29.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "save_date"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "date_not_found"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "save_date"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "9cb8f3ca5b",
+      "name": "date_not_found",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "date_validation"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-5Kp__k"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "11ee80d42d",
+      "name": "save_member",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "family-questions.flow.json"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"imageMembers\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8d55ff0222",
+      "name": "relatives",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_member"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-aLttkq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "6733ad78b3",
+      "name": "random_place_image",
+      "next": [
+        {
+          "condition": "true",
+          "node": "save_image"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-i45g3W",
+        "random-place-images {\"id\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "02143b98ce",
+      "name": "save_no_relatives",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "place-questions.flow.json"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"noRelatives\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-731988",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "image_recognition",
+      "flow": "skills/choice-731988.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes]",
+          "condition": "temp['skill-choice-ret-j75xqekowy'] == \"Yes\"",
+          "node": "date_validation"
+        },
+        {
+          "caption": "User picked [No]",
+          "condition": "temp['skill-choice-ret-j75xqekowy'] == \"No\"",
+          "node": "unrecognized"
+        },
+        {
+          "caption": "User picked [Unsure]",
+          "condition": "temp['skill-choice-ret-j75xqekowy'] == \"Unsure\"",
+          "node": "remember"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "fallback-redirect.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "55a85217ef",
+      "name": "remember",
+      "next": [
+        {
+          "condition": "true",
+          "node": "date_validation"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-q1nBUe"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "dad3acdf37",
+      "name": "save_image",
+      "next": [
+        {
+          "condition": "true",
+          "node": "image_recognition"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"session\",\"name\":\"currentImage\",\"value\":\"{{event.preview}}\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "abfefe8202",
+      "name": "story_context",
+      "next": [
+        {
+          "condition": "true",
+          "node": "random_place_image"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-hAXCPq",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

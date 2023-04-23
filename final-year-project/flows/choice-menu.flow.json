@@ -1,0 +1,60 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "action_select",
+  "description": "",
+  "nodes": [
+    {
+      "id": "skill-663ad2",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "action_select",
+      "flow": "skills/choice-663ad2.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Begin o...]",
+          "condition": "temp['skill-choice-ret-4oienfybuk'] == \"Begin our conversation\"",
+          "node": "past-pictures.flow.json"
+        },
+        {
+          "caption": "User picked [Verify ...]",
+          "condition": "temp['skill-choice-ret-4oienfybuk'] == \"Verify my username\"",
+          "node": "user-name.flow.json"
+        },
+        {
+          "caption": "User picked [Show co...]",
+          "condition": "temp['skill-choice-ret-4oienfybuk'] == \"Show conversation summary\"",
+          "conditionType": "raw",
+          "node": "conversation-summary.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "fallback-redirect.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "17bde07ee8",
+      "name": "intent_detection_NASA_API",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'building-pictures'",
+          "conditionType": "intent",
+          "node": "image-api.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-30UcJR"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    }
+  ]
+}

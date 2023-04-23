@@ -1,0 +1,126 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "summary_menu",
+  "description": "",
+  "nodes": [
+    {
+      "id": "skill-de18c1",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "summary_menu",
+      "flow": "skills/choice-de18c1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Summary...]",
+          "condition": "temp['skill-choice-ret-t8k4couozr'] == \"Summary of whole conversation\"",
+          "node": "code_everything_summary"
+        },
+        {
+          "caption": "User picked [Convers...]",
+          "condition": "temp['skill-choice-ret-t8k4couozr'] == \"Conversation summary about places\"",
+          "node": "code_place_summary"
+        },
+        {
+          "caption": "User picked [Convers...]",
+          "condition": "temp['skill-choice-ret-t8k4couozr'] == \"Conversation summary about relatives\"",
+          "node": "code_family_summary"
+        },
+        {
+          "caption": "User picked [View re...]",
+          "condition": "temp['skill-choice-ret-t8k4couozr'] == \"View responses stored locally on JSON file\"",
+          "node": "view_responses_JSON"
+        },
+        {
+          "caption": "User picked [Return ...]",
+          "condition": "temp['skill-choice-ret-t8k4couozr'] == \"Return to main menu\"",
+          "node": "return_to_main_menu"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "fallback-redirect.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "31452016c5",
+      "name": "return_to_main_menu",
+      "next": [
+        {
+          "condition": "true",
+          "conditionType": "always",
+          "node": "choice-menu.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QriwXa",
+        "builtin/wait {\"delay\":\"2000\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c86fe6692e",
+      "name": "code_everything_summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": "summary_menu"
+        }
+      ],
+      "onEnter": [
+        "conversation-summary {\"id\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0204c8432c",
+      "name": "code_place_summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": "summary_menu"
+        }
+      ],
+      "onEnter": [
+        "place-conversation-summary {\"null\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c5045c1102",
+      "name": "code_family_summary",
+      "next": [
+        {
+          "condition": "true",
+          "node": "summary_menu"
+        }
+      ],
+      "onEnter": [
+        "family-conversation-summary {\"null\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b7d2883663",
+      "name": "view_responses_JSON",
+      "next": [
+        {
+          "condition": "true",
+          "node": "summary_menu"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-UAzu6U"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
