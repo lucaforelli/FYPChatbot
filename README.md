@@ -5,18 +5,11 @@ The user would pre-load images, videos and audio relating to the system past eve
 Then, the chatbot would present those media types to the user and ask follow-up prompts to gain more information about that specific artifact. 
 The bot was developed using the Botpress v12 framework. 
 
-
-# [Botpress](https://botpress.com/?utm_source=github&utm_medium=organic&utm_campaign=botpress_repo&utm_term=readme) — The building blocks for building chatbots
-
 **IMPORTANT**: With the launch of Botpress Cloud, the documentation for Botpress v12 can now be found [here](https://v12.botpress.com/). 
 
 ## What is Botpress?
 
 Botpress is the standard developer stack to build, run, and improve conversational AI applications. Powered by natural language understanding, a messaging API, and a fully featured studio, Botpress allows developers and conversation designers around the globe to build remarkable chatbots without compromise.
-
-The fastest & easiest way to get started with Botpress is by signing up for free to **[Botpress Cloud](https://sso.botpress.cloud/registration)**. Alternatively, continue reading for more information about Botpress v12.
-
-<a href='https://botpress.com/?utm_source=github&utm_medium=organic&utm_campaign=botpress_repo&utm_term=readme'><img src='.github/assets/studio.png'></a>
 
 **Out of the box, Botpress v12 includes:**
 
