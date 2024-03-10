@@ -37,9 +37,13 @@ There are a few ways to get started with Botpress v12:
 
 * Clone the repository to your local machine:
   * `git clone https://github.com/lucaforelli/FYPChatbot.git`
-* Open the botpress project.
-* navigate to the Project Directory and install project dependencies using npm: `npm install`
-* Build and run the program using the Botpress CLI. 
+* Navigate to the Project Directory and install project dependencies using npm: `npm install`
+* Extract the downloaded botpress.exe file from here: (https://v12.botpress.com/)
+* run the 'bp' executable file
+* From the command prompt, open the url (http://localhost:3000) in a browser.
+* Enter login credentials, or create new account.
+* In the administration panel, under the 'Create Botpress' dropdown, select 'Import Existing'
+    * Choose the file .tgz file from this project.
 
 ## Documentation
 
