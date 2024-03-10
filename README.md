@@ -27,6 +27,12 @@ There are a few ways to get started with Botpress v12:
 - Use the official [Docker image](https://hub.docker.com/r/botpress/server) and follow the [hosting docs](https://v12.botpress.com/going-to-production/deploy/docker-compose)
 - Run from sources, follow [build docs](https://v12.botpress.com/going-to-production/deploy/)
 
+## Prerequisites ##
+1. Node.js: Ensure that Node.js is installed on your machine. You can download it from [Node.js] (https://nodejs.org/en)
+2. npm: Make sure npm (Node Package Manager) is installed along with Node.js.
+3. Botpress CLI: Install the Botpress CLI globally using the following command:
+    (npm install -g botpress-cli)
+
 **Installation:**
 
 * Clone the repository to your local machine:
