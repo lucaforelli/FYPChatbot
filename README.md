@@ -27,6 +27,13 @@ There are a few ways to get started with Botpress v12:
 - Use the official [Docker image](https://hub.docker.com/r/botpress/server) and follow the [hosting docs](https://v12.botpress.com/going-to-production/deploy/docker-compose)
 - Run from sources, follow [build docs](https://v12.botpress.com/going-to-production/deploy/)
 
+**Installation:**
+
+* Clone the repository to your local machine:
+  * `git clone https://github.com/lucaforelli/FYPChatbot.git`
+* Open the botpress project.
+* Build and run the program.
+
 ## Documentation
 
 - [Main Documentation](https://v12.botpress.com/)
