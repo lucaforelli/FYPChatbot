@@ -1,4 +1,4 @@
-# FYPChatbot
+# Proactive Past Life Experience Chatbot
 ## Project Overview
 This is a Final Year Poject (FYP) from Aston University. The main concept of this chatbot is to proactively hold a conversation about their past life experiences. 
 The user would pre-load images, videos and audio relating to the system past event they woud like to discuss with the the chatbot. 
